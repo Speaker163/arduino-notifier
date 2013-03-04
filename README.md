@@ -11,21 +11,21 @@ Usage
 =====
 
 Setup:
+```cpp
+	include "/arno/arno.h";
 	
-	include '/arno/arno.h';
-	
-	setup()	
+	int setup()	
 	{
 		(…)
 		
-		arno_setup('TOKEN');
+		arno_setup("TOKEN");
 		
 		(…)
 	}
-	
+```
 Usage in loop:	
-	
-	loop()
+```cpp	
+	int loop()
 	{
     	(…)
     	
@@ -36,5 +36,5 @@ Usage in loop:
     	
     	(…)
     }
-    
+```    
 That's it!
